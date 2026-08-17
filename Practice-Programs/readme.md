@@ -1,4 +1,5 @@
 // 1. Sum of Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -7,9 +8,10 @@ int main() {
     printf("Sum = %d\n", sum);
     return 0;
 }
-
+'''
 
 // 2. Reverse an Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -23,9 +25,10 @@ int main() {
     for (int i = 0; i < n; i++) printf("%d ", arr[i]);
     return 0;
 }
-
+'''
 
 // 3. Maximum Element in Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -34,9 +37,10 @@ int main() {
     printf("Max = %d\n", max);
     return 0;
 }
-
+'''
 
 // 4. Minimum Element in Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -45,9 +49,10 @@ int main() {
     printf("Min = %d\n", min);
     return 0;
 }
-
+''
 
 // 5. Count Odd & Even Numbers in Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -60,8 +65,9 @@ int main() {
     return 0;
 }
 
-
+'''
 // 6. Union of Two Arrays
+'''
 #include <stdio.h>
 
 int main() {
@@ -78,8 +84,9 @@ int main() {
     return 0;
 }
 
-
+'''
 // 7. Frequency of Elements in Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -95,9 +102,10 @@ int main() {
     }
     return 0;
 }
-
+'''
 
 // 8. Second Smallest Element in Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -111,8 +119,9 @@ int main() {
     return 0;
 }
 
-
+'''
 // 9. Peak Element in Array
+'''
 #include <stdio.h>
 
 int main() {
@@ -126,8 +135,9 @@ int main() {
     return 0;
 }
 
-
+'''
 // 10. Matrix Addition
+'''
 #include <stdio.h>
 
 int main() {
@@ -141,9 +151,10 @@ int main() {
     }
     return 0;
 }
-
+'''
 
 // 11. Matrix Subtraction
+'''
 #include <stdio.h>
 
 int main() {
@@ -157,9 +168,11 @@ int main() {
     }
     return 0;
 }
+'''
 
 
 // 12. Maximum Element in Matrix
+'''
 #include <stdio.h>
 
 int main() {
@@ -170,9 +183,11 @@ int main() {
     printf("Max = %d\n", max);
     return 0;
 }
+'''
 
 
 // 13.1 String Operations: Length
+'''
 #include <stdio.h>
 
 int main() {
@@ -182,9 +197,10 @@ int main() {
     printf("Length = %d\n", len);
     return 0;
 }
-
+'''
 
 // 13.2 String Operations: Copy
+'''
 #include <stdio.h>
 
 int main() {
@@ -194,9 +210,10 @@ int main() {
     printf("Copied: %s\n", dest);
     return 0;
 }
-
+'''
 
 // 13.3 String Operations: Concatenation
+'''
 #include <stdio.h>
 
 int main() {
@@ -208,8 +225,9 @@ int main() {
     return 0;
 }
 
-
+'''
 // 13.4 String Operations: Counting Words
+'''
 #include <stdio.h>
 
 int main() {
@@ -221,8 +239,9 @@ int main() {
     return 0;
 }
 
-
+'''
 // 13.5 String Operations: Counting Vowels and Consonants
+'''
 #include <stdio.h>
 
 int main() {
@@ -242,9 +261,10 @@ int main() {
     printf("Vowels: %d, Consonants: %d\n", vowels, consonants);
     return 0;
 }
-
+'''
 
 // 14. String Palindrome
+'''
 #include <stdio.h>
 
 int main() {
@@ -261,7 +281,7 @@ int main() {
     else printf("Not Palindrome\n");
     return 0;
 }
-
+'''
 
 // 15. Structures Program (Car Details)
 #include <stdio.h>
@@ -281,8 +301,9 @@ int main() {
     printf("Price: $%.2f\n", myCar.price);
     return 0;
 }
-
+'''
 /* Palindrome Number Checker */
+
 #include <stdio.h>
 
 int main() {
