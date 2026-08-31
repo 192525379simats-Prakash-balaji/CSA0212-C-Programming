@@ -526,3 +526,327 @@ int main() {
     return 0;
 }
 ```
+MAX of array
+```
+#include <stdio.h>
+int main(){
+  int arr[]={25,11,7,75,56},n=5,max=arr[0];
+  for(int i=1;i<n;i++) if(arr[i]>max) max=arr[i];
+  printf("largest element is %d\n", max);
+  return 0;
+}
+```
+Average of Array
+```
+#include <stdio.h>
+int main(){
+  int arr[]={10,20,30,40,50},n=5,sum=0;
+  for(int i=0;i<n;i++) sum+=arr[i];
+  printf("Average is %.2f\n",(float)sum/n);
+  return 0;
+}
+```
+Reverse of array
+```
+#include <stdio.h>
+int main() {
+    int a[] = {10, 20, 30, 40, 50}, n = 5;
+    printf("reverse array:");
+    for (int i = n - 1; i >= 0; i--)
+        printf("%d ", a[i]);
+    return 0;
+}
+```
+2nd Max in an array
+
+```
+#include <stdio.h>
+
+int main() {
+    int a[] = {12, 35, 1, 10, 34, 1}, n = 6, i, max1 = -1, max2 = -1;
+    for (i = 0; i < n; i++) {
+        if (a[i] > max1) {
+            max2 = max1;
+            max1 = a[i];
+        } else if (a[i] > max2 && a[i] != max1) {
+            max2 = a[i];
+        }
+    }
+    printf("second largest element is %d\n", max2);
+    return 0;
+}
+```
+
+Sort A-Z in array
+```
+#include <stdio.h>
+int main() {
+    int a[]={25,11,7,75,56}, n=5, i, j, t;
+    for (i = 0; i < n; i++)
+        for (j = 0; j < n - i - 1; j++)
+            if (a[j] > a[j + 1])
+                t = a[j], a[j] = a[j + 1], a[j + 1] = t;
+    for (i = 0; i < n; i++) printf("%d ", a[i]);
+    return 0;
+}
+```
+Check if two array are equal
+```
+#include<stdio.h>
+int main(){
+    int a[]={1,2,3};
+    int b[]={1,2,3};
+    int n=3;
+    for(int i=0;i<n;i++)
+        if(a[i]!=b[i])
+            return printf("Not Equal\n"),0;
+    printf("Equal\n");}
+```
+Frequency in array
+```
+#include <stdio.h>
+int main() {
+    int a[]={1,2,3,4,5,6,7,1,2,2}, t=2, c=0, n=10;
+    for(int i=0; i<n; i++) if(a[i]==t) c++;
+    printf("%d: %d\n", t, c);
+    return 0;
+}
+```
+Remove duplicates in array
+```
+#include <stdio.h>
+
+int main() {
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 1, 2, 2}, n = 10;
+    for (int i = 0; i < n; i++) {
+        int j;
+        for (j = 0; j < i; j++) if (a[i] == a[j]) break;
+        if (i == j) printf("%d ", a[i]);
+    }
+    return 0;
+}
+```
+Insert Element in array
+```
+#include <stdio.h>
+
+int main() {
+    int a[] = {1, 2, 3, 4, 5}, n = 5, e = 10, p = 2;
+    for (int i = n; i > p; i--) a[i] = a[i - 1];
+    a[p] = e; n++;
+    for (int i = 0; i < n; i++) printf("%d ", a[i]);
+    return 0;
+}
+```
+Delete Element in array
+```
+#include<stdio.h>
+int main(){
+  int a[]={10,20,30,40,50}, n=5, pos=2;
+  for(int i=pos;i<n-1;i++) a[i]=a[i+1];
+  n--;
+  for(int i=0;i<n;i++) printf("%d ",a[i]);
+  return 0;
+}
+```
+Merge Two array
+```
+#include <stdio.h>
+int main(){
+    int a[3]={1,2,3},b[3]={4,5,6},c[6],i=0,j=0,k=0;
+    while(i<3&&j<3)
+        c[k++]=(a[i]<b[j])?a[i++]:b[j++];
+    while(i<3)
+        c[k++]=a[i++];
+    while(j<3)
+        c[k++]=b[j++];
+    for(i=0;i<6;i++)
+        printf("%d ",c[i]);
+return 0;
+}
+```
+Min in array
+```
+#include <stdio.h>
+int main() {
+  int a[]={23,56,12,35,24}; 
+  int n=5, m=a[0];
+  for(int i=1;i<n;i++) if(a[i]<m) m=a[i];
+  printf("%d", m);
+  return 0;
+}
+```
+Find Max and Min in array
+```
+#include<stdio.h>
+int main(){
+    int a[]={23,56,12,35,24,23,512,52,61,423},n=10,min=a[0],max=a[0];
+    for(int i=1;i<n;i++){
+        if(a[i]<min)min=a[i];
+        if(a[i]>max)max=a[i];}
+    printf("minimum=%d max=%d",min,max);
+    return 0;
+}
+```
+Count Even and Odd
+```
+#include <stdio.h>
+
+int main() {
+    int arr[] = {23, 56, 12, 35, 24, 23, 512, 52, 61, 423}, n = 10, e = 0, o = 0;
+    for (int i = 0; i < n; i++) {
+        (arr[i] % 2 == 0) ? e++ : o++;
+    }
+    printf("Even: %d\nOdd: %d\n", e, o);
+    return 0;
+}
+```
+Sum of odd and even
+```
+#include <stdio.h>
+int main() {
+  int a[]={23,56,12,35,24,23,512,52,61,423}, n=10, even=0, odd=0;
+  for(int i=0;i<n;i++) (i%2==0? even: odd)+=a[i];
+  printf("even=%d\nodd=%d\n", even, odd);
+  return 0;
+}
+```
+Product of array
+```
+#include <stdio.h>
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5}, n = 5;
+    long long prod = 1;
+    for (int i = 0; i < n; i++) prod *= arr[i];
+    printf("Product: %lld\n", prod);
+    return 0;
+}
+```
+Largest and Smallest in array
+```
+#include <stdio.h>
+
+void findmm(int a[], int n) {
+    int max = a[0], min = a[0];
+    for (int i = 1; i < n; i++) {
+        if (a[i] > max) max = a[i];
+        if (a[i] < min) min = a[i];
+    }
+    printf("Largest: %d\nSmallest: %d\n", max, min);
+}
+
+int main() {
+    int arr[] = {25, 11, 6, 53, 56};
+    findmm(arr, 5);
+    return 0;
+}
+```
+2nd smallest in array
+```
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
+    int a[] = {25, 11, 7, 65, 56}, n = 5, f = INT_MAX, s = INT_MAX;
+    for (int i = 0; i < n; i++) {
+        if (a[i] < f) { s = f; f = a[i]; }
+        else if (a[i] < s && a[i] != f) s = a[i];
+    }
+    printf("2nd smallest:%d\n", s);
+    return 0;
+}
+```
+K'th smallest element
+```
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
+    int a[] = {25, 11, 7, 65, 56}, n = 5, k = 3, i, j, m;
+    for (i = 0; i < k; i++) {
+        m = INT_MAX;
+        for (j = 0; j < n; j++)
+            if (a[j] < m) m = a[j];
+        for (j = 0; j < n; j++)
+            if (a[j] == m) a[j] = INT_MAX;
+    }
+    printf("%dth smallest: %d\n", k, m);
+    return 0;
+}
+```
+Find missing element
+```
+#include <stdio.h>
+int main(){
+  int a[]={1,2,3,5,6},n=6,s=0; 
+  for(int i=0;i<n-1;i++) s+=a[i];
+  printf("%d", n*(n+1)/2 - s);
+  return 0;
+}
+```
+Unique elements in array
+```
+#include <stdio.h>
+
+int main() {
+    int a[] = {1, 2, 2, 3, 4, 4, 5}, n = 7;
+    for (int i = 0; i < n; i++) {
+        int count = 0;
+        for (int j = 0; j < n; j++) {
+            if (a[i] == a[j]) count++;
+        }
+        if (count == 1) printf("%d ", a[i]);
+    }
+    return 0;
+}
+```
+Rotating array to left by n 
+```
+#include<stdio.h>
+int main(){
+    int a[6]={1,2,3,5,6},n=6;
+    int exp=n*(n+1)/2,act=a[0]+a[1]+a[2]+a[3]+a[4];
+    printf("missing number:%d",exp-act);
+    return 0;
+}
+```
+Check if sorted in ascending or descending
+```
+#include <stdio.h>
+int main() {
+    int a[]={1,3,4,6,8}, n=5, i, asc=1, desc=1;
+    for(i=0; i<n-1; i++) {
+        if(a[i]>a[i+1]) asc=0;
+        if(a[i]<a[i+1]) desc=0;
+    }
+    if(asc) printf("Ascending");
+    else if(desc) printf("Descending");
+    else printf("Not sorted");
+    return 0;
+}
+```
+Reverse element using pointer
+```
+#include <stdio.h>
+int main() {
+    int a[] = {10, 20, 30, 40, 50}, n = 5;
+    int *p = a + n - 1;
+    printf("Reverse array: ");
+    while (n--) printf("%d ", *p--);
+    return 0;
+}
+```
+Find median of array
+```
+#include <stdio.h>
+
+int main() {
+    int a[] = {10, 30, 20, 50, 40}, n = 5, i, j, t;
+    for (i = 0; i < n; i++)
+        for (j = i + 1; j < n; j++)
+            if (a[i] > a[j]) { t = a[i]; a[i] = a[j]; a[j] = t; }
+    printf("Median: %d", a[n/2]);
+    return 0;
+}
+```
