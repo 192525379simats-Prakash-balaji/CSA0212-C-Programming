@@ -1,4 +1,4 @@
-// 1. Sum of Array
+ 1. Sum of Array
 ```
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ int main() {
 }
 ```
 
-// 2. Reverse an Array
+2. Reverse an Array
 ```
 #include <stdio.h>
 
@@ -27,7 +27,7 @@ int main() {
 }
 ```
 
-// 3. Maximum Element in Array
+3. Maximum Element in Array
 ```
 #include <stdio.h>
 
@@ -39,7 +39,7 @@ int main() {
 }
 ```
 
-// 4. Minimum Element in Array
+ 4. Minimum Element in Array
 ```
 #include <stdio.h>
 
@@ -51,7 +51,7 @@ int main() {
 }
 ```
 
-// 5. Count Odd & Even Numbers in Array
+5. Count Odd & Even Numbers in Array
 ```
 #include <stdio.h>
 
@@ -66,7 +66,7 @@ int main() {
 }
 
 ```
-// 6. Union of Two Arrays
+ 6. Union of Two Arrays
 ```
 #include <stdio.h>
 
@@ -85,7 +85,7 @@ int main() {
 }
 
 ```
-// 7. Frequency of Elements in Array
+7. Frequency of Elements in Array
 ```
 #include <stdio.h>
 
@@ -104,7 +104,7 @@ int main() {
 }
 ```
 
-// 8. Second Smallest Element in Array
+8. Second Smallest Element in Array
 ```
 #include <stdio.h>
 
@@ -120,7 +120,7 @@ int main() {
 }
 
 ```
-// 9. Peak Element in Array
+9. Peak Element in Array
 ```
 #include <stdio.h>
 
@@ -136,7 +136,7 @@ int main() {
 }
 
 ```
-// 10. Matrix Addition
+10. Matrix Addition
 ```
 #include <stdio.h>
 
@@ -153,7 +153,7 @@ int main() {
 }
 ```
 
-// 11. Matrix Subtraction
+11. Matrix Subtraction
 ```
 #include <stdio.h>
 
@@ -171,7 +171,7 @@ int main() {
 ```
 
 
-// 12. Maximum Element in Matrix
+12. Maximum Element in Matrix
 ```
 #include <stdio.h>
 
@@ -186,7 +186,7 @@ int main() {
 ```
 
 
-// 13.1 String Operations: Length
+13.1 String Operations: Length
 ```
 #include <stdio.h>
 
@@ -199,7 +199,7 @@ int main() {
 }
 ```
 
-// 13.2 String Operations: Copy
+13.2 String Operations: Copy
 ```
 #include <stdio.h>
 
@@ -212,7 +212,7 @@ int main() {
 }
 ```
 
-// 13.3 String Operations: Concatenation
+13.3 String Operations: Concatenation
 ```
 #include <stdio.h>
 
@@ -226,7 +226,7 @@ int main() {
 }
 
 ```
-// 13.4 String Operations: Counting Words
+13.4 String Operations: Counting Words
 ```
 #include <stdio.h>
 
@@ -240,7 +240,7 @@ int main() {
 }
 
 ```
-// 13.5 String Operations: Counting Vowels and Consonants
+13.5 String Operations: Counting Vowels and Consonants
 ```
 #include <stdio.h>
 
@@ -263,7 +263,7 @@ int main() {
 }
 ```
 
-// 14. String Palindrome
+14. String Palindrome
 ```
 #include <stdio.h>
 
@@ -283,7 +283,7 @@ int main() {
 }
 ```
 
-// 15. Structures Program (Car Details)
+15. Structures Program (Car Details)
 ```
 #include <stdio.h>
 
@@ -303,7 +303,7 @@ int main() {
     return 0;
 }
 ```
-//Palindrome Number Checker
+Palindrome Number Checker
 ```
 #include <stdio.h>
 
@@ -330,7 +330,7 @@ int main() {
 }
 ```
 
-/* Half Pyramid Pattern */
+Half Pyramid Pattern
 ```
 #include <stdio.h>
 
@@ -348,7 +348,7 @@ int main() {
 }
 
 ```
-/* Scalar Matrix Multiplication */
+Scalar Matrix Multiplication
 ```
 #include <stdio.h>
 
@@ -368,7 +368,7 @@ int main() {
 }
 ```
 
-/* Determinant of a 2x2 Matrix */
+Determinant of a 2x2 Matrix
 ```
 #include <stdio.h>
 
@@ -386,7 +386,7 @@ int main() {
 }
 
 ```
-/* Inverse of a 2x2 Matrix */
+Inverse of a 2x2 Matrix
 ```
 #include <stdio.h>
 
@@ -407,7 +407,7 @@ int main() {
 }
 ```
 
-/* Rank of a 2x2 Matrix */
+Rank of a 2x2 Matrix
 ```
 #include <stdio.h>
 
@@ -429,7 +429,7 @@ int main() {
 }
 ```
 
-/* Gauss-Jordan Elimination (2x2 System) */
+Gauss-Jordan Elimination (2x2 System)
 ```
 #include <stdio.h>
 
@@ -466,7 +466,7 @@ int main() {
 }
 ```
 
-/* Sum and Average of Numbers (Hardcoded) */
+Sum and Average of Numbers
 ```
 #include <stdio.h>
 
@@ -489,7 +489,7 @@ int main() {
 }
 
 ```
-/* Multiplication Table (Hardcoded) */
+Multiplication Table
 ```
 #include <stdio.h>
 
@@ -504,7 +504,7 @@ int main() {
 }
 ```
 
-/* Diamond Pattern using Two Pyramids */
+Diamond Pattern using Two Pyramids
 ```
 #include <stdio.h>
 
